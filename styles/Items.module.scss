@@ -1,0 +1,65 @@
+@import '_variables';
+.results-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.details-container {
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.conditions {
+    font-size: 14px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.price {
+    font-size: 46px;
+    margin: 32px 0px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.breadcrum-container {
+    padding: 0px;
+}
+
+.breadcrums {
+    padding: 16px;
+    >ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        >div {
+            float: left;
+            display: flex;
+            flex-direction: row;
+            >li {
+                font-size: 14px;
+                color: $gray-middle-color;
+                float: left;
+                margin: 0px 15px;
+                &:nth-child(1) {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}

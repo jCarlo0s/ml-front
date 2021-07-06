@@ -1,0 +1,27 @@
+@import '_variables';
+.result-item {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    cursor: pointer;
+    .free-shipping {
+        margin: 10px;
+    }
+    .image {
+        margin: 16px;
+        border-radius: 4px;
+    }
+    .list-details {
+        width: 70%;
+        .price {
+            font-size: 24px;
+            margin-bottom: 32px;
+        }
+        .title {
+            font-size: 18px;
+        }
+    }
+    .location {
+        font-size: 12px;
+    }
+}
